@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/background_light"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="170dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player1"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/playerA_types"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/playerA_select_human"
+                    android:text="@string/player_human"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/playerA_select_computer"
+                    android:text="@string/player_computer"/>
+            </RadioGroup>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter player's name. "
+                android:id="@+id/playerA_name"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="170dip"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Player2"/>
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:id="@+id/playerB_types"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/playerB_select_human"
+                    android:text="@string/player_human"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/playerB_select_computer"
+                    android:text="@string/player_computer"/>
+            </RadioGroup>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter player's name. "
+                android:id="@+id/playerB_name"/>
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:layout_width="70dp"
+        android:text="Done"
+        android:id="@+id/done"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+</LinearLayout>

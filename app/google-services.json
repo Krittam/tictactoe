@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "870837464489",
+    "firebase_url": "https://blackhawk-41445.firebaseio.com",
+    "project_id": "blackhawk-41445",
+    "storage_bucket": "blackhawk-41445.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870837464489:android:22ed9c3c14f5189d",
+        "android_client_info": {
+          "package_name": "com.blackhawk.blackhawk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870837464489-qtj79m04mpldjjrlj1q2kg89bvtbkrje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJldscJtNq_B5kmRGfJfIWPgOrs_JW5mI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870837464489:android:7f163f800dd239c2",
+        "android_client_info": {
+          "package_name": "com.tictactoe.tictactoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870837464489-qtj79m04mpldjjrlj1q2kg89bvtbkrje.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJldscJtNq_B5kmRGfJfIWPgOrs_JW5mI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870837464489-qtj79m04mpldjjrlj1q2kg89bvtbkrje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

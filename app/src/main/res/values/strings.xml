@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="player_human">HumanPlayer</string>
+    <string name="player_computer">ComputerPlayer</string>
+    <string name="welcome_screen_text">Please fill the following details.</string>
+    <string name="placeholder_email">enter your email address</string>
+    <string name="placeholder_username">enter your name</string>
+    <string name="buttonText_welcomeScreen">Done!</string>
+</resources>
